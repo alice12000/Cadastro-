@@ -1,51 +1,68 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿    using System;
+    using System.Windows.Forms;
 
-namespace cadastro_funcionario_atualizado_bd
-{
-    public partial class Form1 : Form
+    namespace cadastro_funcionario_atualizado_bd
     {
-        public Form1()
+        public partial class Form1 : Form
         {
-            InitializeComponent();
-        }
+            public Form1()
+            {
+                InitializeComponent();
+            }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+            private void button1_Click(object sender, EventArgs e)
+            {
+                this.Close();
+            }
 
-        }
+            private void cancelar_button_Click_1(object sender, EventArgs e)
+            {
+                //botão cancelar
+                nome_txt.Text = "";
+                data_nas_txt.Text = "";
+                estado_civ_txt.Text = " ";
+                rg_txt.Text = "";
+                cpf_txt.Text = "";
+                funcao_txt.Text = "";
+                salario_txt.Text = "";
+                email_txt.Text = "";
+                telefone_txt.Text = "";
+                estado_cbx.Text = "";
+                cidade_txt.Text = "";
+                rua_txt.Text = "";
+                cep_txt.Text = "";
+                numero_txt.Text = "";
+            }
 
-        private void salvar_button_Click(object sender, EventArgs e)
-        {
-            //pessoais: 
-            string nome = nome_txt.Text;
-            DateTime datanas = Convert.ToDateTime(datanas_txt);
-            string estadocivil = estado_civ_txt.Text;
-            int rg = Convert.ToInt32(rg_txt.Text);
-            string cpf = cpf_txt.Text; 
+            private void salvar_btn_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                Funcionario f = new Funcionario();
+                f.Nome = nome_txt.Text;
+                f.Rg = Convert.ToInt32(rg_txt.Text);
+                f.Ec = estado_cbx.Text;
+                f.Cpf = cpf_txt.Text;
+                f.Email = email_txt.Text;
+                f.Salario = Convert.ToDouble(salario_txt.Text);
+                f.Funcao = funcao_txt.Text; 
+                f.Telefone = telefone_txt.Text;
 
-            //gerais:
-            string funcao = funcao_txt.Text;
-            string salario = salario_txt.Text;
-      
-            //contato
-            string email = email_txt.Text;
-            string telefone = telefone_txt.Text;
+                  
+            }
 
-            //endereco: 
-            string estado = estado_txt.Text;
-            string cidade = cidade_txt.Text;
-            string rua = rua_txt.Text;
-            string cpe = Convert.ToInt32(cpe_txt);
-            //string numero = Convert.ToDouble
 
-        }
+            catch
+            {
+                MessageBox.Show("OCORREU UM ERRO");
+            }
+           
+
+            }
     }
+
+
+
+
 }
+    

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 
 namespace cadastro_funcionario_atualizado_bd
@@ -24,7 +22,7 @@ namespace cadastro_funcionario_atualizado_bd
 
         }
 
-        public Funcionario(string nome, DateTime datanas, string cpf, int rg, string ec, string email, string funcao, double salario, string endereco, string telefone)
+        public Funcionario(string nome, DateTime datanas, string cpf, int rg, string ec, string email, string funcao, double salario, string telefone)
         {
             this.Nome = nome;
             this.DataNas = datanas;
@@ -35,8 +33,6 @@ namespace cadastro_funcionario_atualizado_bd
             this.Funcao = funcao;
             this.Salario = salario;
             this.Telefone = telefone;
-            this.Endereco = endereco;
-
         }
     }
 }

@@ -32,51 +32,49 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.estado_civ_txt = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.email_txt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.rg_txt = new System.Windows.Forms.MaskedTextBox();
-            this.salvar_button = new System.Windows.Forms.Button();
-            this.cancelar_button = new System.Windows.Forms.Button();
-            this.nome_txt = new System.Windows.Forms.TextBox();
-            this.cpf_txt = new System.Windows.Forms.MaskedTextBox();
-            this.telefone_txt = new System.Windows.Forms.MaskedTextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.salario_txt = new System.Windows.Forms.TextBox();
-            this.datanas_txt = new System.Windows.Forms.MaskedTextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.funcao_txt = new System.Windows.Forms.ComboBox();
-            this.estado_txt = new System.Windows.Forms.ComboBox();
-            this.cidade_txt = new System.Windows.Forms.ComboBox();
-            this.numero_txt = new System.Windows.Forms.TextBox();
-            this.rua_txt = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cep_txt = new System.Windows.Forms.MaskedTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.nome_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.email_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.estado_civ_txt = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.rg_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.telefone_txt = new System.Windows.Forms.MaskedTextBox();
+            this.cpf_txt = new System.Windows.Forms.MaskedTextBox();
+            this.data_nas_txt = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.funcao_txt = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.salvar_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.cancelar_button = new Guna.UI2.WinForms.Guna2Button();
+            this.salario_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.numero_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cidade_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.estado_cbx = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cep_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.rua_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Javanese Text", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(270, 51);
+            this.label2.Location = new System.Drawing.Point(273, 53);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(405, 32);
+            this.label2.Size = new System.Drawing.Size(640, 91);
             this.label2.TabIndex = 1;
             this.label2.Text = "CADASTRO DE FUNCIONÁRIO";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -85,8 +83,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
@@ -95,31 +94,22 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(145, 156);
+            this.label3.Location = new System.Drawing.Point(220, 168);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "Nome: ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(145, 117);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "DADOS PESSOAIS:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(145, 187);
+            this.label5.Location = new System.Drawing.Point(220, 287);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 13);
+            this.label5.Size = new System.Drawing.Size(133, 16);
             this.label5.TabIndex = 5;
             this.label5.Text = "Data de Nascimento:";
             // 
@@ -128,9 +118,10 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(552, 176);
+            this.label6.Location = new System.Drawing.Point(643, 230);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 13);
+            this.label6.Size = new System.Drawing.Size(64, 16);
             this.label6.TabIndex = 6;
             this.label6.Text = "Telefone:";
             // 
@@ -139,78 +130,34 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(364, 187);
+            this.label7.Location = new System.Drawing.Point(220, 227);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 13);
+            this.label7.Size = new System.Drawing.Size(81, 16);
             this.label7.TabIndex = 7;
             this.label7.Text = "Estado Civil:";
-            // 
-            // estado_civ_txt
-            // 
-            this.estado_civ_txt.AutoCompleteCustomSource.AddRange(new string[] {
-            "Casado",
-            "Viúvo",
-            "Solteiro",
-            "Relacionamento estável"});
-            this.estado_civ_txt.FormattingEnabled = true;
-            this.estado_civ_txt.Items.AddRange(new object[] {
-            "Casado",
-            "Relacionamento estável",
-            "Solteiro",
-            "Viúvo"});
-            this.estado_civ_txt.Location = new System.Drawing.Point(431, 183);
-            this.estado_civ_txt.Name = "estado_civ_txt";
-            this.estado_civ_txt.Size = new System.Drawing.Size(95, 21);
-            this.estado_civ_txt.TabIndex = 8;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(552, 146);
+            this.label8.Location = new System.Drawing.Point(603, 168);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(44, 16);
             this.label8.TabIndex = 9;
             this.label8.Text = "Email:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(552, 233);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 13);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "ENDEREÇO:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(552, 117);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(178, 13);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "INFORMAÇÕES PARA CONTATO: ";
-            // 
-            // email_txt
-            // 
-            this.email_txt.Location = new System.Drawing.Point(593, 143);
-            this.email_txt.Name = "email_txt";
-            this.email_txt.Size = new System.Drawing.Size(299, 20);
-            this.email_txt.TabIndex = 13;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.ForeColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(145, 217);
+            this.label11.Location = new System.Drawing.Point(450, 230);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(24, 13);
+            this.label11.Size = new System.Drawing.Size(28, 16);
             this.label11.TabIndex = 15;
             this.label11.Text = "Rg:";
             // 
@@ -219,80 +166,22 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.ForeColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(320, 220);
+            this.label12.Location = new System.Drawing.Point(773, 230);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(26, 13);
+            this.label12.Size = new System.Drawing.Size(30, 16);
             this.label12.TabIndex = 16;
             this.label12.Text = "Cpf:";
-            // 
-            // rg_txt
-            // 
-            this.rg_txt.Location = new System.Drawing.Point(192, 217);
-            this.rg_txt.Name = "rg_txt";
-            this.rg_txt.Size = new System.Drawing.Size(100, 20);
-            this.rg_txt.TabIndex = 17;
-            // 
-            // salvar_button
-            // 
-            this.salvar_button.Location = new System.Drawing.Point(322, 372);
-            this.salvar_button.Name = "salvar_button";
-            this.salvar_button.Size = new System.Drawing.Size(75, 23);
-            this.salvar_button.TabIndex = 19;
-            this.salvar_button.Text = "Salvar";
-            this.salvar_button.UseVisualStyleBackColor = true;
-            this.salvar_button.Click += new System.EventHandler(this.salvar_button_Click);
-            // 
-            // cancelar_button
-            // 
-            this.cancelar_button.Location = new System.Drawing.Point(419, 372);
-            this.cancelar_button.Name = "cancelar_button";
-            this.cancelar_button.Size = new System.Drawing.Size(75, 23);
-            this.cancelar_button.TabIndex = 20;
-            this.cancelar_button.Text = "Cancelar";
-            this.cancelar_button.UseVisualStyleBackColor = true;
-            // 
-            // nome_txt
-            // 
-            this.nome_txt.Location = new System.Drawing.Point(192, 153);
-            this.nome_txt.Name = "nome_txt";
-            this.nome_txt.Size = new System.Drawing.Size(317, 20);
-            this.nome_txt.TabIndex = 21;
-            // 
-            // cpf_txt
-            // 
-            this.cpf_txt.Location = new System.Drawing.Point(352, 217);
-            this.cpf_txt.Mask = "000.000.000-00";
-            this.cpf_txt.Name = "cpf_txt";
-            this.cpf_txt.Size = new System.Drawing.Size(100, 20);
-            this.cpf_txt.TabIndex = 23;
-            // 
-            // telefone_txt
-            // 
-            this.telefone_txt.Location = new System.Drawing.Point(610, 173);
-            this.telefone_txt.Mask = "(99) 0000-0000";
-            this.telefone_txt.Name = "telefone_txt";
-            this.telefone_txt.Size = new System.Drawing.Size(100, 20);
-            this.telefone_txt.TabIndex = 24;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(148, 262);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(143, 13);
-            this.label13.TabIndex = 25;
-            this.label13.Text = "ESPECIFICAÇÕES GERAIS:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label14.Location = new System.Drawing.Point(148, 296);
+            this.label14.Location = new System.Drawing.Point(519, 287);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(46, 13);
+            this.label14.Size = new System.Drawing.Size(55, 16);
             this.label14.TabIndex = 26;
             this.label14.Text = "Função:";
             // 
@@ -301,59 +190,34 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.ForeColor = System.Drawing.Color.Transparent;
-            this.label15.Location = new System.Drawing.Point(320, 296);
+            this.label15.Location = new System.Drawing.Point(678, 287);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(42, 13);
+            this.label15.Size = new System.Drawing.Size(53, 16);
             this.label15.TabIndex = 27;
             this.label15.Text = "Salário:";
-            // 
-            // salario_txt
-            // 
-            this.salario_txt.BackColor = System.Drawing.SystemColors.Window;
-            this.salario_txt.Location = new System.Drawing.Point(367, 293);
-            this.salario_txt.Name = "salario_txt";
-            this.salario_txt.Size = new System.Drawing.Size(100, 20);
-            this.salario_txt.TabIndex = 28;
-            // 
-            // datanas_txt
-            // 
-            this.datanas_txt.Location = new System.Drawing.Point(258, 183);
-            this.datanas_txt.Mask = "00/00/0000";
-            this.datanas_txt.Name = "datanas_txt";
-            this.datanas_txt.Size = new System.Drawing.Size(88, 20);
-            this.datanas_txt.TabIndex = 30;
-            this.datanas_txt.ValidatingType = typeof(System.DateTime);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(552, 301);
+            this.label16.Location = new System.Drawing.Point(723, 363);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(30, 13);
+            this.label16.Size = new System.Drawing.Size(35, 16);
             this.label16.TabIndex = 31;
             this.label16.Text = "Rua:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.ForeColor = System.Drawing.Color.Transparent;
-            this.label17.Location = new System.Drawing.Point(763, 301);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(47, 13);
-            this.label17.TabIndex = 32;
-            this.label17.Text = "Número:";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(728, 271);
+            this.label18.Location = new System.Drawing.Point(402, 363);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(43, 13);
+            this.label18.Size = new System.Drawing.Size(54, 16);
             this.label18.TabIndex = 33;
             this.label18.Text = "Cidade:";
             // 
@@ -362,160 +226,448 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(552, 271);
+            this.label19.Location = new System.Drawing.Point(220, 363);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(43, 13);
+            this.label19.Size = new System.Drawing.Size(53, 16);
             this.label19.TabIndex = 34;
             this.label19.Text = "Estado:";
-            // 
-            // funcao_txt
-            // 
-            this.funcao_txt.FormattingEnabled = true;
-            this.funcao_txt.Items.AddRange(new object[] {
-            "Professor",
-            "Diretor",
-            "Vice-Diretor",
-            "Faxineiro",
-            "Segurança",
-            "Técnico em Informática",
-            "Educacional "});
-            this.funcao_txt.Location = new System.Drawing.Point(192, 292);
-            this.funcao_txt.Name = "funcao_txt";
-            this.funcao_txt.Size = new System.Drawing.Size(121, 21);
-            this.funcao_txt.TabIndex = 35;
-            // 
-            // estado_txt
-            // 
-            this.estado_txt.FormattingEnabled = true;
-            this.estado_txt.Items.AddRange(new object[] {
-            "Acre",
-            "Alagoas",
-            "Amapá",
-            "Amazonas",
-            "Bahia",
-            "Ceará",
-            "Distrito Federal",
-            "Espírito Santo",
-            "Goiás",
-            "Maranhão",
-            "Mato Grosso",
-            "Mato Grosso do Sul",
-            "Minas Gerais",
-            "Pará",
-            "Paraíba",
-            "Paraná",
-            "Pernambuco",
-            "Piauí",
-            "Rio de Janeiro",
-            "Rio Grande do Norte",
-            "Rio Grande do Sul",
-            "Rondônia",
-            "Roraima",
-            "Santa Catarina",
-            "São Paulo",
-            "Sergipe",
-            "Tocantins"});
-            this.estado_txt.Location = new System.Drawing.Point(601, 268);
-            this.estado_txt.Name = "estado_txt";
-            this.estado_txt.Size = new System.Drawing.Size(121, 21);
-            this.estado_txt.TabIndex = 36;
-            // 
-            // cidade_txt
-            // 
-            this.cidade_txt.FormattingEnabled = true;
-            this.cidade_txt.Location = new System.Drawing.Point(771, 268);
-            this.cidade_txt.Name = "cidade_txt";
-            this.cidade_txt.Size = new System.Drawing.Size(121, 21);
-            this.cidade_txt.TabIndex = 37;
-            // 
-            // numero_txt
-            // 
-            this.numero_txt.Location = new System.Drawing.Point(816, 298);
-            this.numero_txt.Name = "numero_txt";
-            this.numero_txt.Size = new System.Drawing.Size(76, 20);
-            this.numero_txt.TabIndex = 38;
-            // 
-            // rua_txt
-            // 
-            this.rua_txt.Location = new System.Drawing.Point(601, 298);
-            this.rua_txt.Name = "rua_txt";
-            this.rua_txt.Size = new System.Drawing.Size(156, 20);
-            this.rua_txt.TabIndex = 39;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(552, 331);
+            this.label20.Location = new System.Drawing.Point(572, 363);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(31, 13);
+            this.label20.Size = new System.Drawing.Size(37, 16);
             this.label20.TabIndex = 40;
             this.label20.Text = "CEP:";
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.Location = new System.Drawing.Point(-18, -14);
+            this.panel1.Location = new System.Drawing.Point(-24, -17);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(145, 493);
+            this.panel1.Size = new System.Drawing.Size(176, 607);
             this.panel1.TabIndex = 42;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(951, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(29, 23);
+            this.button1.TabIndex = 44;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // nome_txt
+            // 
+            this.nome_txt.BackColor = System.Drawing.Color.Transparent;
+            this.nome_txt.BorderRadius = 10;
+            this.nome_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nome_txt.DefaultText = "";
+            this.nome_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nome_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nome_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nome_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nome_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nome_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nome_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nome_txt.Location = new System.Drawing.Point(223, 188);
+            this.nome_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nome_txt.Name = "nome_txt";
+            this.nome_txt.PasswordChar = '\0';
+            this.nome_txt.PlaceholderText = "";
+            this.nome_txt.SelectedText = "";
+            this.nome_txt.Size = new System.Drawing.Size(351, 25);
+            this.nome_txt.TabIndex = 45;
+            // 
+            // email_txt
+            // 
+            this.email_txt.BackColor = System.Drawing.Color.Transparent;
+            this.email_txt.BorderRadius = 10;
+            this.email_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.email_txt.DefaultText = "";
+            this.email_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.email_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.email_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.email_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.email_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.email_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.email_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.email_txt.Location = new System.Drawing.Point(606, 188);
+            this.email_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.email_txt.Name = "email_txt";
+            this.email_txt.PasswordChar = '\0';
+            this.email_txt.PlaceholderText = "";
+            this.email_txt.SelectedText = "";
+            this.email_txt.Size = new System.Drawing.Size(351, 25);
+            this.email_txt.TabIndex = 46;
+            // 
+            // estado_civ_txt
+            // 
+            this.estado_civ_txt.BackColor = System.Drawing.Color.Transparent;
+            this.estado_civ_txt.BorderRadius = 15;
+            this.estado_civ_txt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.estado_civ_txt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.estado_civ_txt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.estado_civ_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.estado_civ_txt.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.estado_civ_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.estado_civ_txt.ItemHeight = 20;
+            this.estado_civ_txt.Items.AddRange(new object[] {
+            "Casado",
+            "Relacionamento estável",
+            "Solteiro",
+            "Viúvo"});
+            this.estado_civ_txt.Location = new System.Drawing.Point(223, 246);
+            this.estado_civ_txt.Name = "estado_civ_txt";
+            this.estado_civ_txt.Size = new System.Drawing.Size(209, 26);
+            this.estado_civ_txt.TabIndex = 47;
+            // 
+            // rg_txt
+            // 
+            this.rg_txt.BackColor = System.Drawing.Color.Transparent;
+            this.rg_txt.BorderRadius = 10;
+            this.rg_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.rg_txt.DefaultText = "";
+            this.rg_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.rg_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.rg_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rg_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rg_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rg_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.rg_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rg_txt.Location = new System.Drawing.Point(453, 250);
+            this.rg_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rg_txt.Name = "rg_txt";
+            this.rg_txt.PasswordChar = '\0';
+            this.rg_txt.PlaceholderText = "";
+            this.rg_txt.SelectedText = "";
+            this.rg_txt.Size = new System.Drawing.Size(175, 24);
+            this.rg_txt.TabIndex = 48;
+            // 
+            // telefone_txt
+            // 
+            this.telefone_txt.Location = new System.Drawing.Point(646, 252);
+            this.telefone_txt.Mask = "(99) 0000-0000";
+            this.telefone_txt.Name = "telefone_txt";
+            this.telefone_txt.Size = new System.Drawing.Size(100, 22);
+            this.telefone_txt.TabIndex = 49;
+            // 
+            // cpf_txt
+            // 
+            this.cpf_txt.Location = new System.Drawing.Point(776, 252);
+            this.cpf_txt.Mask = "000.000.000-00";
+            this.cpf_txt.Name = "cpf_txt";
+            this.cpf_txt.Size = new System.Drawing.Size(100, 22);
+            this.cpf_txt.TabIndex = 50;
+            // 
+            // data_nas_txt
+            // 
+            this.data_nas_txt.Checked = true;
+            this.data_nas_txt.FillColor = System.Drawing.Color.LightGray;
+            this.data_nas_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.data_nas_txt.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.data_nas_txt.Location = new System.Drawing.Point(223, 306);
+            this.data_nas_txt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.data_nas_txt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.data_nas_txt.Name = "data_nas_txt";
+            this.data_nas_txt.Size = new System.Drawing.Size(284, 36);
+            this.data_nas_txt.TabIndex = 51;
+            this.data_nas_txt.Value = new System.DateTime(2023, 11, 9, 11, 39, 9, 867);
+            // 
+            // funcao_txt
+            // 
+            this.funcao_txt.BackColor = System.Drawing.Color.Transparent;
+            this.funcao_txt.BorderRadius = 10;
+            this.funcao_txt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.funcao_txt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.funcao_txt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.funcao_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.funcao_txt.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.funcao_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.funcao_txt.ItemHeight = 20;
+            this.funcao_txt.Items.AddRange(new object[] {
+            "Professor",
+            "Diretor",
+            "Faxineiro",
+            "Segurança",
+            "Cozinheiro",
+            "Técnico em Informática",
+            "Vice-Diretor",
+            "Técnico em Química",
+            "Técnico em Florestas"});
+            this.funcao_txt.Location = new System.Drawing.Point(522, 313);
+            this.funcao_txt.Name = "funcao_txt";
+            this.funcao_txt.Size = new System.Drawing.Size(144, 26);
+            this.funcao_txt.TabIndex = 52;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.ForeColor = System.Drawing.Color.Transparent;
+            this.label17.Location = new System.Drawing.Point(833, 287);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(58, 16);
+            this.label17.TabIndex = 32;
+            this.label17.Text = "Número:";
+            // 
+            // salvar_btn
+            // 
+            this.salvar_btn.BackColor = System.Drawing.Color.Transparent;
+            this.salvar_btn.BorderColor = System.Drawing.Color.Transparent;
+            this.salvar_btn.BorderRadius = 10;
+            this.salvar_btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.salvar_btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.salvar_btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.salvar_btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.salvar_btn.FillColor = System.Drawing.Color.White;
+            this.salvar_btn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.salvar_btn.ForeColor = System.Drawing.Color.Black;
+            this.salvar_btn.Location = new System.Drawing.Point(440, 464);
+            this.salvar_btn.Name = "salvar_btn";
+            this.salvar_btn.Size = new System.Drawing.Size(134, 35);
+            this.salvar_btn.TabIndex = 53;
+            this.salvar_btn.Text = "Salvar";
+            this.salvar_btn.Click += new System.EventHandler(this.salvar_btn_Click);
+            // 
+            // cancelar_button
+            // 
+            this.cancelar_button.BackColor = System.Drawing.Color.Transparent;
+            this.cancelar_button.BorderColor = System.Drawing.Color.Transparent;
+            this.cancelar_button.BorderRadius = 10;
+            this.cancelar_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.cancelar_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.cancelar_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.cancelar_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.cancelar_button.FillColor = System.Drawing.Color.White;
+            this.cancelar_button.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cancelar_button.ForeColor = System.Drawing.Color.Black;
+            this.cancelar_button.Location = new System.Drawing.Point(612, 464);
+            this.cancelar_button.Name = "cancelar_button";
+            this.cancelar_button.Size = new System.Drawing.Size(134, 35);
+            this.cancelar_button.TabIndex = 54;
+            this.cancelar_button.Text = "Cancelar";
+            this.cancelar_button.Click += new System.EventHandler(this.cancelar_button_Click_1);
+            // 
+            // salario_txt
+            // 
+            this.salario_txt.Animated = true;
+            this.salario_txt.BackColor = System.Drawing.Color.Transparent;
+            this.salario_txt.BorderRadius = 10;
+            this.salario_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.salario_txt.DefaultText = "";
+            this.salario_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.salario_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.salario_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.salario_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.salario_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.salario_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.salario_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.salario_txt.Location = new System.Drawing.Point(681, 313);
+            this.salario_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.salario_txt.Name = "salario_txt";
+            this.salario_txt.PasswordChar = '\0';
+            this.salario_txt.PlaceholderText = "";
+            this.salario_txt.SelectedText = "";
+            this.salario_txt.Size = new System.Drawing.Size(134, 29);
+            this.salario_txt.TabIndex = 55;
+            // 
+            // numero_txt
+            // 
+            this.numero_txt.Animated = true;
+            this.numero_txt.BackColor = System.Drawing.Color.Transparent;
+            this.numero_txt.BorderRadius = 10;
+            this.numero_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.numero_txt.DefaultText = "";
+            this.numero_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.numero_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.numero_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.numero_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.numero_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.numero_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.numero_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.numero_txt.Location = new System.Drawing.Point(836, 313);
+            this.numero_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.numero_txt.Name = "numero_txt";
+            this.numero_txt.PasswordChar = '\0';
+            this.numero_txt.PlaceholderText = "";
+            this.numero_txt.SelectedText = "";
+            this.numero_txt.Size = new System.Drawing.Size(109, 29);
+            this.numero_txt.TabIndex = 56;
+            // 
+            // cidade_txt
+            // 
+            this.cidade_txt.Animated = true;
+            this.cidade_txt.BackColor = System.Drawing.Color.Transparent;
+            this.cidade_txt.BorderRadius = 10;
+            this.cidade_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cidade_txt.DefaultText = "";
+            this.cidade_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.cidade_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cidade_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cidade_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cidade_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cidade_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cidade_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cidade_txt.Location = new System.Drawing.Point(405, 383);
+            this.cidade_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cidade_txt.Name = "cidade_txt";
+            this.cidade_txt.PasswordChar = '\0';
+            this.cidade_txt.PlaceholderText = "";
+            this.cidade_txt.SelectedText = "";
+            this.cidade_txt.Size = new System.Drawing.Size(148, 29);
+            this.cidade_txt.TabIndex = 57;
+            // 
+            // estado_cbx
+            // 
+            this.estado_cbx.BackColor = System.Drawing.Color.Transparent;
+            this.estado_cbx.BorderRadius = 10;
+            this.estado_cbx.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.estado_cbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.estado_cbx.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.estado_cbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.estado_cbx.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.estado_cbx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.estado_cbx.ItemHeight = 20;
+            this.estado_cbx.Items.AddRange(new object[] {
+            "Acre (AC)",
+            "Alagoas (AL)",
+            "Amapá (AP)",
+            "Amazonas (AM)",
+            "Bahia (BA)",
+            "Ceará (CE)",
+            "Distrito Federal (DF)",
+            "Espírito Santo (ES)",
+            "Goiás (GO)",
+            "Maranhão (MA)",
+            "Mato Grosso (MT)",
+            "Mato Grosso do Sul (MS)",
+            "Minas Gerais (MG)",
+            "Pará (PA)",
+            "Paraíba (PB)",
+            "Paraná (PR)",
+            "Pernambuco (PE)",
+            "Piauí (PI)",
+            "Rio de Janeiro (RJ)",
+            "Rio Grande do Norte (RN)",
+            "Rio Grande do Sul (RS)",
+            "Rondônia (RO)",
+            "Roraima (RR)",
+            "Santa Catarina (SC)",
+            "São Paulo (SP)",
+            "Sergipe (SE)",
+            "Tocantins (TO)",
+            "",
+            "",
+            "",
+            "",
+            ""});
+            this.estado_cbx.Location = new System.Drawing.Point(223, 386);
+            this.estado_cbx.Name = "estado_cbx";
+            this.estado_cbx.Size = new System.Drawing.Size(169, 26);
+            this.estado_cbx.TabIndex = 58;
             // 
             // cep_txt
             // 
-            this.cep_txt.Location = new System.Drawing.Point(593, 331);
-            this.cep_txt.Mask = "000000-000";
+            this.cep_txt.Animated = true;
+            this.cep_txt.BackColor = System.Drawing.Color.Transparent;
+            this.cep_txt.BorderRadius = 10;
+            this.cep_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cep_txt.DefaultText = "";
+            this.cep_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.cep_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cep_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cep_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cep_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cep_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cep_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cep_txt.Location = new System.Drawing.Point(573, 383);
+            this.cep_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cep_txt.Name = "cep_txt";
-            this.cep_txt.Size = new System.Drawing.Size(100, 20);
-            this.cep_txt.TabIndex = 43;
+            this.cep_txt.PasswordChar = '\0';
+            this.cep_txt.PlaceholderText = "";
+            this.cep_txt.SelectedText = "";
+            this.cep_txt.Size = new System.Drawing.Size(134, 29);
+            this.cep_txt.TabIndex = 59;
+            // 
+            // rua_txt
+            // 
+            this.rua_txt.Animated = true;
+            this.rua_txt.BackColor = System.Drawing.Color.Transparent;
+            this.rua_txt.BorderRadius = 10;
+            this.rua_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.rua_txt.DefaultText = "";
+            this.rua_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.rua_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.rua_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rua_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rua_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rua_txt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.rua_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rua_txt.Location = new System.Drawing.Point(726, 386);
+            this.rua_txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rua_txt.Name = "rua_txt";
+            this.rua_txt.PasswordChar = '\0';
+            this.rua_txt.PlaceholderText = "";
+            this.rua_txt.SelectedText = "";
+            this.rua_txt.Size = new System.Drawing.Size(219, 29);
+            this.rua_txt.TabIndex = 60;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(910, 467);
+            this.ClientSize = new System.Drawing.Size(992, 534);
+            this.Controls.Add(this.rua_txt);
             this.Controls.Add(this.cep_txt);
+            this.Controls.Add(this.estado_cbx);
+            this.Controls.Add(this.cidade_txt);
+            this.Controls.Add(this.numero_txt);
+            this.Controls.Add(this.salario_txt);
+            this.Controls.Add(this.cancelar_button);
+            this.Controls.Add(this.salvar_btn);
+            this.Controls.Add(this.funcao_txt);
+            this.Controls.Add(this.data_nas_txt);
+            this.Controls.Add(this.cpf_txt);
+            this.Controls.Add(this.telefone_txt);
+            this.Controls.Add(this.rg_txt);
+            this.Controls.Add(this.estado_civ_txt);
+            this.Controls.Add(this.email_txt);
+            this.Controls.Add(this.nome_txt);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.rua_txt);
-            this.Controls.Add(this.numero_txt);
-            this.Controls.Add(this.cidade_txt);
-            this.Controls.Add(this.estado_txt);
-            this.Controls.Add(this.funcao_txt);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.datanas_txt);
-            this.Controls.Add(this.salario_txt);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.telefone_txt);
-            this.Controls.Add(this.cpf_txt);
-            this.Controls.Add(this.nome_txt);
-            this.Controls.Add(this.cancelar_button);
-            this.Controls.Add(this.salvar_button);
-            this.Controls.Add(this.rg_txt);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.email_txt);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.estado_civ_txt);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -526,40 +678,37 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox estado_civ_txt;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox email_txt;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.MaskedTextBox rg_txt;
-        private System.Windows.Forms.Button salvar_button;
-        private System.Windows.Forms.Button cancelar_button;
-        private System.Windows.Forms.TextBox nome_txt;
-        private System.Windows.Forms.MaskedTextBox cpf_txt;
-        private System.Windows.Forms.MaskedTextBox telefone_txt;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox salario_txt;
-        private System.Windows.Forms.MaskedTextBox datanas_txt;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox funcao_txt;
-        private System.Windows.Forms.ComboBox estado_txt;
-        private System.Windows.Forms.ComboBox cidade_txt;
-        private System.Windows.Forms.TextBox numero_txt;
-        private System.Windows.Forms.TextBox rua_txt;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.MaskedTextBox cep_txt;
+        private System.Windows.Forms.Button button1;
+        private Guna.UI2.WinForms.Guna2TextBox nome_txt;
+        private Guna.UI2.WinForms.Guna2TextBox email_txt;
+        private Guna.UI2.WinForms.Guna2ComboBox estado_civ_txt;
+        private Guna.UI2.WinForms.Guna2TextBox rg_txt;
+        private System.Windows.Forms.MaskedTextBox telefone_txt;
+        private System.Windows.Forms.MaskedTextBox cpf_txt;
+        private Guna.UI2.WinForms.Guna2DateTimePicker data_nas_txt;
+        private Guna.UI2.WinForms.Guna2ComboBox funcao_txt;
+        private System.Windows.Forms.Label label17;
+        private Guna.UI2.WinForms.Guna2Button salvar_btn;
+        private Guna.UI2.WinForms.Guna2Button cancelar_button;
+        private Guna.UI2.WinForms.Guna2TextBox salario_txt;
+        private Guna.UI2.WinForms.Guna2TextBox numero_txt;
+        private Guna.UI2.WinForms.Guna2TextBox cidade_txt;
+        private Guna.UI2.WinForms.Guna2ComboBox estado_cbx;
+        private Guna.UI2.WinForms.Guna2TextBox cep_txt;
+        private Guna.UI2.WinForms.Guna2TextBox rua_txt;
     }
 }
 
