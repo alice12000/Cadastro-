@@ -16,7 +16,7 @@ namespace cadastro_funcionario_atualizado_bd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new CadastrarFuncionario());
         }
     }
 }
