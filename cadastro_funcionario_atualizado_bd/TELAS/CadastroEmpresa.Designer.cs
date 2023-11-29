@@ -142,7 +142,7 @@
             ""});
             this.ufE_cbx.Location = new System.Drawing.Point(490, 524);
             this.ufE_cbx.Name = "ufE_cbx";
-            this.ufE_cbx.Size = new System.Drawing.Size(105, 26);
+            this.ufE_cbx.Size = new System.Drawing.Size(160, 26);
             this.ufE_cbx.TabIndex = 89;
             // 
             // telefoneE_txt

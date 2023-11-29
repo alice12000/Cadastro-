@@ -11,7 +11,6 @@ namespace cadastro_funcionario_atualizado_bd.TELAS
 {
     internal class Empresa
     {
-       private readonly string nomeP;
 
         public int Id { get; set; }
         public string RazaoSocial { get; set; }

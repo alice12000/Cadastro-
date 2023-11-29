@@ -111,7 +111,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(748, 245);
+            this.label6.Location = new System.Drawing.Point(833, 247);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(64, 16);
@@ -289,9 +289,9 @@
             "Relacionamento estável",
             "Solteiro",
             "Viúvo"});
-            this.estado_civ_txt.Location = new System.Drawing.Point(543, 266);
+            this.estado_civ_txt.Location = new System.Drawing.Point(551, 265);
             this.estado_civ_txt.Name = "estado_civ_txt";
-            this.estado_civ_txt.Size = new System.Drawing.Size(189, 26);
+            this.estado_civ_txt.Size = new System.Drawing.Size(267, 26);
             this.estado_civ_txt.TabIndex = 47;
             // 
             // rg_txt
@@ -320,7 +320,7 @@
             // telefone_txt
             // 
             this.telefone_txt.ForeColor = System.Drawing.Color.Black;
-            this.telefone_txt.Location = new System.Drawing.Point(751, 265);
+            this.telefone_txt.Location = new System.Drawing.Point(836, 267);
             this.telefone_txt.Mask = "(99) 0000-0000";
             this.telefone_txt.Name = "telefone_txt";
             this.telefone_txt.Size = new System.Drawing.Size(108, 22);

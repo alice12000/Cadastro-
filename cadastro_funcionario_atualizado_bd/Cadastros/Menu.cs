@@ -37,5 +37,10 @@ namespace cadastro_funcionario_atualizado_bd.TELAS
             this.Visible = true;
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

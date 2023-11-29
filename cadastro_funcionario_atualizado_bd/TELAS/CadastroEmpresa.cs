@@ -28,14 +28,7 @@ namespace cadastro_funcionario_atualizado_bd
 
 
         private List<Empresa> listE = new List<Empresa>();
-        /*Arrumar no código:
-         * Style do menu
-         * Conectar com o banco de dados: parte de empresa : feito
-         * 
-         * 
-         *
-         
-         */
+   
         void Inserir(Empresa e)
         {
             try
@@ -71,7 +64,7 @@ namespace cadastro_funcionario_atualizado_bd
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message + "ERRO ESTÁ AQUI OTÁRIA");
+                MessageBox.Show(ex.Message);
             }
         }
 
