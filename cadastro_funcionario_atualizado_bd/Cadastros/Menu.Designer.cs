@@ -61,7 +61,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(162, 229);
+            this.label1.Location = new System.Drawing.Point(161, 241);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(384, 68);
             this.label1.TabIndex = 115;
@@ -91,7 +91,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(169, 343);
+            this.label4.Location = new System.Drawing.Point(169, 368);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(636, 22);
@@ -117,7 +117,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Menu";
             this.ShowInTaskbar = false;
             this.Text = "Menu";

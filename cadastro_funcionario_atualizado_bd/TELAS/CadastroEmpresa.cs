@@ -47,7 +47,7 @@ namespace cadastro_funcionario_atualizado_bd
                 comando.Parameters.AddWithValue("@telefone",e.Telefone );
                 comando.Parameters.AddWithValue("@cnpj",e.Cnpj );
                 comando.Parameters.AddWithValue("@data",e.DataFundacao);
-                comando.Parameters.AddWithValue("@tipo",e.Tipo );
+                comando.Parameters.AddWithValue("@tipo",e.Tipo);
                 comando.Parameters.AddWithValue("@nomeP",e.NomeP);
                 comando.Parameters.AddWithValue("@cpf", e.CpfProprietario);
                 comando.Parameters.AddWithValue("@cidade", e.Cidade);
@@ -130,12 +130,6 @@ namespace cadastro_funcionario_atualizado_bd
 
                         string regimeT;
 
-                        GroupBox regime = new GroupBox();
-                        regime.Controls.Add(lucro_rb);
-                        regime.Controls.Add(filial_rb);
-                        regime.Controls.Add(matriz_rb);
-                   
-
                         if (simples_rb.Checked == true)
                         {
                             regimeT = simples_rb.Text;
@@ -148,30 +142,26 @@ namespace cadastro_funcionario_atualizado_bd
                         {
                             regimeT = lucro_rb.Text;
                         }
-     
-                        string tipO;
-
-                        GroupBox tipo = new GroupBox();
-                        tipo.Controls.Add(matriz_rb);
-                        tipo.Controls.Add(filial_rb);
-     
+    
+                        string type;
 
                         if (matriz_rb.Checked == true)
                         {
-                            tipO = matriz_rb.Text;
+                            type = matriz_rb.Text;
                         }
                        
+                        else if(matriz_rb.Checked == false)
+                        {
+                            type = filial_rb.Text;
+                        }
+
                         else
                         {
-                            tipO = filial_rb.Text;
+                            MessageBox.Show("Por favor, selecione o tipo da empresa");
+                            type = null;
                         }
 
                         string porteE;
-
-                        GroupBox porte = new GroupBox();
-                        porte.Controls.Add(pequeno_rb);
-                        porte.Controls.Add(medio_rb);
-                        porte.Controls.Add(grande_rb);
 
 
                         if (pequeno_rb.Checked == true)
@@ -184,9 +174,15 @@ namespace cadastro_funcionario_atualizado_bd
                             porteE = medio_rb.Text;
                         }
                     
-                        else
+                        else if(grande_rb.Checked == true)
                         {
                             porteE = grande_rb.Text;
+                        }
+
+                        else
+                        {
+                            MessageBox.Show("Faltou selecionar o porte da empresa: ");
+                            porteE = null;
                         }
 
 
@@ -203,7 +199,7 @@ namespace cadastro_funcionario_atualizado_bd
                 
 
                         Empresa e1 = new Empresa(razaoS, situacaoC, nomeF, naturezaJ, porteE, capitalS, regimeT, telefone,
-                        cnpj, dataF, tipO, nomeP, cpf, cidade,cep, uf);
+                        cnpj, dataF, type, nomeP, cpf, cidade,cep, uf);
                          
                         Inserir(e1);
          
@@ -240,6 +236,11 @@ namespace cadastro_funcionario_atualizado_bd
 
 
         private void guna2CustomRadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void matriz_rb_CheckedChanged(object sender, EventArgs e)
         {
 
         }

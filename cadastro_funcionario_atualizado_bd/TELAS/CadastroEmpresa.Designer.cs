@@ -733,7 +733,7 @@
             this.tipo_gb_rb.Controls.Add(this.label28);
             this.tipo_gb_rb.Controls.Add(this.label29);
             this.tipo_gb_rb.ForeColor = System.Drawing.Color.GhostWhite;
-            this.tipo_gb_rb.Location = new System.Drawing.Point(542, 358);
+            this.tipo_gb_rb.Location = new System.Drawing.Point(541, 367);
             this.tipo_gb_rb.Name = "tipo_gb_rb";
             this.tipo_gb_rb.Size = new System.Drawing.Size(210, 70);
             this.tipo_gb_rb.TabIndex = 143;
@@ -764,10 +764,12 @@
             this.matriz_rb.Name = "matriz_rb";
             this.matriz_rb.Size = new System.Drawing.Size(20, 20);
             this.matriz_rb.TabIndex = 126;
+            this.matriz_rb.Text = "Matriz";
             this.matriz_rb.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.matriz_rb.UncheckedState.BorderThickness = 2;
             this.matriz_rb.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.matriz_rb.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.matriz_rb.CheckedChanged += new System.EventHandler(this.matriz_rb_CheckedChanged);
             // 
             // filial_rb
             // 
@@ -781,7 +783,7 @@
             this.filial_rb.Name = "filial_rb";
             this.filial_rb.Size = new System.Drawing.Size(20, 20);
             this.filial_rb.TabIndex = 128;
-            this.filial_rb.Text = "Grande";
+            this.filial_rb.Text = "Filial";
             this.filial_rb.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.filial_rb.UncheckedState.BorderThickness = 2;
             this.filial_rb.UncheckedState.FillColor = System.Drawing.Color.Transparent;
@@ -840,7 +842,7 @@
             this.simples_rb.Name = "simples_rb";
             this.simples_rb.Size = new System.Drawing.Size(20, 20);
             this.simples_rb.TabIndex = 138;
-            this.simples_rb.Text = "Pequeno";
+            this.simples_rb.Text = "Simples Nacional";
             this.simples_rb.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.simples_rb.UncheckedState.BorderThickness = 2;
             this.simples_rb.UncheckedState.FillColor = System.Drawing.Color.Transparent;
@@ -859,7 +861,7 @@
             this.lucro_rb.Size = new System.Drawing.Size(20, 20);
             this.lucro_rb.TabIndex = 139;
             this.lucro_rb.Tag = "";
-            this.lucro_rb.Text = "Médio";
+            this.lucro_rb.Text = "Lucro Presumido";
             this.lucro_rb.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.lucro_rb.UncheckedState.BorderThickness = 2;
             this.lucro_rb.UncheckedState.FillColor = System.Drawing.Color.Transparent;
